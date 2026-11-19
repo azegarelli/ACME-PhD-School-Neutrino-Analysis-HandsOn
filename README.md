@@ -8,7 +8,7 @@ Two hands-on Jupyter exercises accompanying the lecture **Analysis Techniques in
 | Toy Monte Carlo: generate with an artificial spectrum, reweight to physical hypotheses, study detector response | `02_Toy_MC_student.ipynb` | `02_Toy_MC_solutions.ipynb` |
 
 The **student** notebooks include TODOs and conceptual questions. The **solutions** notebooks contain worked code and explanations. 
-Solutions will be released after the hands-on session.
+**Solutions will be released after the hands-on session**.
 
 ## Requirements
 
