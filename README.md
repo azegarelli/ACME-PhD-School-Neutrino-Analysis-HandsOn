@@ -7,7 +7,8 @@ Two hands-on Jupyter exercises accompanying the lecture **Analysis Techniques in
 | IceCube HESE public data: MC/data comparisons, flux weights, expected counts, effective area, migration matrices | `01_HESE_student.ipynb` | `01_HESE_solutions.ipynb` |
 | Toy Monte Carlo: generate with an artificial spectrum, reweight to physical hypotheses, study detector response | `02_Toy_MC_student.ipynb` | `02_Toy_MC_solutions.ipynb` |
 
-The **student** notebooks include TODOs and conceptual questions. The **solutions** notebooks contain worked code and explanations. Start with the student notebook and run cells in order.
+The **student** notebooks include TODOs and conceptual questions. The **solutions** notebooks contain worked code and explanations. 
+Solutions will be released after the hands-on session.
 
 ## Requirements
 
