@@ -23,7 +23,7 @@ The notebooks contain coding exercises and conceptual questions. Run the cells i
 - Internet access for the initial Python-package installation and for the public IceCube HESE dataset download. The optional toy MC notebook does not need a data download.
 - About **75 MB** for the IceCube ZIP, plus space for the extracted JSON files.
 
-Required packages are listed in [`requirements.txt`](requirements.txt): `numpy`, `pandas`, `matplotlib`, `jupyterlab`, and `ipykernel`. The remaining imports (`json`, `pathlib`, `urllib`, `zipfile`, `shutil`) are part of Python's standard library.
+Required packages are listed in [`requirements.txt`](requirements.txt).
 
 ## Installation using a virtual environment (recommended)
 
