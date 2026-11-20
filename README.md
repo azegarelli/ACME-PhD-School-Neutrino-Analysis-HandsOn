@@ -2,7 +2,7 @@
 
 Jupyter hands-on material accompanying the lecture **Analysis Techniques in Neutrino Astronomy**.
 
-The **main hands-on** for the school is the IceCube HESE exercise. A second, more advanced toy Monte Carlo exercise is provided **for optional self-study**; it is **not required** for the scheduled hands-on session.
+The **main hands-on** for the school is the IceCube HESE exercise. A second toy Monte Carlo exercise is provided **for optional self-study**; it is **not required** for the scheduled hands-on session.
 
 | Status | Exercise | Student notebook | Instructor solutions |
 | --- | --- | --- | --- |
