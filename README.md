@@ -13,7 +13,9 @@ The **main hands-on** for the school is the IceCube HESE exercise. A second toy 
 
 **The solutions will be uploaded to this repository after the hands-on session.**
 
-**Start with `01_HESE_student.ipynb`.** There is no need to complete the optional toy MC exercise during the school session. Student notebooks contain TODOs and conceptual questions; instructor solution notebooks contain worked code and explanations. Run notebook cells in order.
+**Start with `01_HESE_student.ipynb`.**
+
+The notebooks contain coding exercises and conceptual questions. Run the cells in order.
 
 ## Requirements
 
