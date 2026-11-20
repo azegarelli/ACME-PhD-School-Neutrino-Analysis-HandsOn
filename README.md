@@ -9,6 +9,8 @@ The **main hands-on** for the school is the IceCube HESE exercise. A second toy 
 | **Main hands-on** | IceCube HESE public data: MC/data comparisons, flux weights, expected counts, effective area, migration matrices | [`01_HESE_student.ipynb`](01_HESE_student.ipynb) |
 | **Optional / extra practice** | Toy Monte Carlo: event generation, reweighting to physical spectra, and detector response | [`02_Toy_MC_student.ipynb`](optional/02_Toy_MC_student.ipynb) |
 
+**The solutions will be uploaded to this repository after the hands-on session.**
+
 **Start with `01_HESE_student.ipynb`.** There is no need to complete the optional toy MC exercise during the school session. Student notebooks contain TODOs and conceptual questions; instructor solution notebooks contain worked code and explanations. Run notebook cells in order.
 
 ## Requirements
