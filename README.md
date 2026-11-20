@@ -1,4 +1,6 @@
-# Neutrino Astronomy — PhD School Hands-on
+# Analysis Techniques in Neutrino Astronomy
+
+**PhD School — Teaching Materials**
 
 Jupyter hands-on material accompanying the lecture **Analysis Techniques in Neutrino Astronomy**.
 
