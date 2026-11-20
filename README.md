@@ -4,10 +4,10 @@ Jupyter hands-on material accompanying the lecture **Analysis Techniques in Neut
 
 The **main hands-on** for the school is the IceCube HESE exercise. A second toy Monte Carlo exercise is provided **for optional self-study**; it is **not required** for the scheduled hands-on session.
 
-|  | Exercise | Student notebook | Instructor solutions (available after the Hands-ON) |
+|  | Exercise | Student notebook | |
 | --- | --- | --- | --- |
-| **Main hands-on** | IceCube HESE public data: MC/data comparisons, flux weights, expected counts, effective area, migration matrices | `01_HESE_student.ipynb` | `01_HESE_solutions.ipynb` |
-| **Optional / extra practice** | Toy Monte Carlo: generate with an artificial spectrum, reweight to physical hypotheses, study detector response | `optional/02_Toy_MC_student.ipynb` | `optional/02_Toy_MC_solutions.ipynb` |
+| **Main hands-on** | IceCube HESE public data: MC/data comparisons, flux weights, expected counts, effective area, migration matrices | `01_HESE_student.ipynb` | 
+| **Optional / extra practice** | Toy Monte Carlo: generate with an artificial spectrum, reweight to physical hypotheses, study detector response | `optional/02_Toy_MC_student.ipynb` |
 
 **Start with `01_HESE_student.ipynb`.** There is no need to complete the optional toy MC exercise during the school session. Student notebooks contain TODOs and conceptual questions; instructor solution notebooks contain worked code and explanations. Run notebook cells in order.
 
