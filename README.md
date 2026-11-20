@@ -84,30 +84,13 @@ deactivate
 
 ## HESE public dataset
 
-`01_HESE_student.ipynb` and `01_HESE_solutions.ipynb` use the **IceCube 7.5-year High-Energy Starting Events (HESE)** public data release. Their setup code:
+The `01_HESE_student.ipynb` notebook uses the **IceCube 7.5-year High-Energy Starting Events (HESE)** public data release.
 
-1. Looks for previously extracted HESE JSON files.
-2. Otherwise looks for a local `20211217_HESE-7-5-year-data.zip` archive.
-3. Otherwise attempts to download the official archive from IceCube, then extracts the required JSON files into `HESE_7p5_data/`.
+The notebook automatically downloads the dataset from the official IceCube repository and extracts the required files into `HESE_7p5_data/`. The download is performed only once, unless the files are removed.
 
-The download happens once, unless the files are removed. If it fails, download the archive manually from the [official HESE data release](https://icecube.wisc.edu/data-releases/2021/12/hese-7-5-year-data/) and save it **beside the notebook** with the name `20211217_HESE-7-5-year-data.zip`; rerun the setup cell. Alternatively, provide the four JSON files in `HESE_7p5_data/`: `HESE_data.json`, `HESE_mc_truth.json`, `HESE_mc_observable.json`, and `HESE_mc_flux.json`.
+The dataset is also available from the [official HESE data release](https://icecube.wisc.edu/data-releases/2021/12/hese-7-5-year-data/).
 
 **Do not upload the IceCube data archive or the extracted JSON files to GitHub** as part of this teaching repository; instead link to and cite the official public release.
-
-## Scientific notes
-
-- `weightOverFluxOverLivetime` is the normalized *neutrino* MC weight before multiplying by the assumed physical flux and observation time; inspect its documented units before computing expected event counts.
-- Atmospheric-muon weights use `muonWeightOverLivetime`, not the neutrino flux weighting formula.
-- The HESE release supports selected-event energy/zenith response and effective area derived from the normalization weights, but not a full 3D point-spread function when true/reconstructed azimuths are not provided.
-- The reconstructed deposited energy is **not** the same quantity as the true neutrino energy.
-- These are educational exercises, not a reproduction of the full HESE likelihood analysis.
-
-## Troubleshooting
-
-- **`ModuleNotFoundError`**: check that Jupyter is using the `.venv` kernel; re-run `python -m pip install -r requirements.txt` from the activated environment.
-- **Dataset download unavailable**: use the manual-download instructions above.
-- **LaTeX formulas not visible**: make sure the cell type is *Markdown* and execute that cell with `Shift+Enter`.
-- **PowerShell blocks activation**: use Command Prompt with `.venv\Scripts\activate.bat`, or consult your institution's PowerShell execution policy; no administrative privileges are needed for `venv`.
 
 ## References
 
