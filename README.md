@@ -17,6 +17,40 @@ The **main hands-on** for the school is the IceCube HESE exercise. A second toy 
 
 The notebooks contain coding exercises and conceptual questions. Run the cells in order.
 
+## Getting started
+
+### Option 1 — Run online with Binder (recommended)
+
+You can run the hands-on directly in your browser without installing anything locally.
+
+Click the **Launch Binder** button below to open the Jupyter environment.
+
+[![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USERNAME/REPOSITORY/HEAD?urlpath=lab/tree/01_HESE_student.ipynb)
+
+**Important:** Binder sessions are temporary. Remember to download your completed notebook to save your work.
+
+### Option 2 — Run locally
+
+Alternatively, you can run the exercises on your own computer.
+
+**Download ZIP**
+
+1. Click the green **Code** button on this GitHub repository.
+2. Select **Download ZIP**.
+3. Extract the ZIP file to a folder on your computer.
+4. Open a terminal in the extracted folder.
+
+**Clone with Git**
+
+If you have Git installed, open a terminal and run:
+
+```bash
+git clone https://github.com/azegarelli/ACME-PhD-School-Neutrino-Analysis-HandsOn.git
+cd ACME-PhD-School-Neutrino-Analysis-HandsOn
+```
+
+Once inside the project folder, follow the requirements and installation instructions below.
+
 ## Requirements
 
 - Python **3.10 or newer** (Python 3.11 or 3.12 recommended).
@@ -25,7 +59,7 @@ The notebooks contain coding exercises and conceptual questions. Run the cells i
 
 Required packages are listed in [`requirements.txt`](requirements.txt).
 
-## Installation using a virtual environment (recommended)
+## Local installation using a virtual environment
 
 **1. Download or clone this repository**, then open a terminal in the folder containing `requirements.txt`.
 
