@@ -86,16 +86,6 @@ Then choose **Python (Neutrino Hands-on)** in the notebook's kernel menu.
 deactivate
 ```
 
-## HESE public dataset
-
-The `01_HESE_student.ipynb` notebook uses the **IceCube 7.5-year High-Energy Starting Events (HESE)** public data release.
-
-The notebook automatically downloads the dataset from the official IceCube repository and extracts the required files into `HESE_7p5_data/`. The download is performed only once, unless the files are removed.
-
-The dataset is also available from the [official HESE data release](https://icecube.wisc.edu/data-releases/2021/12/hese-7-5-year-data/).
-
-**Do not upload the IceCube data archive or the extracted JSON files to GitHub** as part of this teaching repository; instead link to and cite the official public release.
-
 ## References
 
 - [IceCube HESE 7.5-year public data release](https://icecube.wisc.edu/data-releases/2021/12/hese-7-5-year-data/), DOI: [10.21234/4EQJ-BB17](https://doi.org/10.21234/4EQJ-BB17).
